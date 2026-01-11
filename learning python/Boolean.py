@@ -20,3 +20,12 @@ print(bool("Sham"))
 
 print(bool(0))
 print(bool())
+
+
+#example
+
+a = 10
+b = 5
+
+print(a > b)     # True
+print(a == b)    # False
