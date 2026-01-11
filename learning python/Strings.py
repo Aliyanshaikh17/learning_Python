@@ -53,3 +53,15 @@ print(name5.strip())
 print(name.replace("a", "A"))
 print(name.split())
 
+
+#String Concatenation
+str2 ="Hello"
+str3 = "niphad"
+print(str2+str3)
+
+
+#String Format
+str4 = "rahul"
+print(f"my name is {str4} and i am from niphad")
+
+
