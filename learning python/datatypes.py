@@ -16,3 +16,17 @@ print(type(a))
 num = int(input("Enter an integer value:- "))
 print(num)
 
+
+
+# Float (float)
+
+
+x = 10.5                # decimal number
+y = -3.14
+z = 0.0
+print(x, y, z)
+print(type(x))
+
+# user input (float)
+price = float(input("Enter price:- "))
+print(price)
