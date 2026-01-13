@@ -47,3 +47,26 @@ print(type(a))
 print(a.real)           # real part
 print(a.imag)           # imaginary part
 
+
+# Type Conversion
+
+a = 10
+b = float(a)            # int to float
+print(b)
+
+x = 10.8
+y = int(x)              # float to int
+print(y)
+
+print(bool(100))        # True
+print(bool(0))          # False
+
+
+
+
+# Summary
+
+# int      -> whole numbers (10, -5, 0)
+# float    -> decimal numbers (10.5, 3.14)
+# complex  -> real + imaginary (2+3j)
+# bool     -> True / False
