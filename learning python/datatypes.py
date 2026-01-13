@@ -30,3 +30,20 @@ print(type(x))
 # user input (float)
 price = float(input("Enter price:- "))
 print(price)
+
+
+
+
+# Complex (complex)
+
+
+a = 3 + 4j              # complex number (real + imaginary)
+b = complex(5, 2)       # using constructor
+print(a)
+print(b)
+print(type(a))
+
+# access real & imaginary part
+print(a.real)           # real part
+print(a.imag)           # imaginary part
+
