@@ -86,3 +86,53 @@ name = ["kunal","aman","prashant"]                      #2 if there is same data
 name.remove("kunal")                                   #list then tha first is remove
 print(name)
 
+
+
+
+
+#append method                                   enter data in list on end of list
+a = [1,2,3,4,5,6,7]
+a.append("the")
+print(a)
+
+#pop method
+name = ["kunal","aman","prashant"]                  #if pop(1) then delete 2nd  =  pop(1)
+name.pop()                                        #last name is delete = pop()
+name.pop(1)                                 
+print(name)
+
+
+#del method (delete)
+name = ["kunal","aman","prashant"]
+del name[0]                       
+print(name)
+
+#clear
+name = ["kunal","aman","prashant"]
+name.clear()
+print(name)
+
+
+#Sort list
+name = ["kunal","prashant","aman"] 
+name.sort()
+print(name)
+
+
+#Sort by descending order
+name = [100, 80,30,101, 8]
+name.sort(reverse=True)
+print(name)
+
+
+#reverse the list
+name = ["aman","prashant","z","y","A", "Z","C"]
+name.reverse()
+print(name)
+
+
+#Join Two List
+name1 = ["aman","prashant","z","y","A", "Z","C"]
+name2 = [1,2,3,4,5]
+addList = name1 + name2
+print(addList)
