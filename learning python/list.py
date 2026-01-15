@@ -52,3 +52,37 @@ print(a)
 
 
 
+
+
+#extend 2 list                                combine 2 list 
+std1 = ["aditya","aman","kunal"]
+std2 = [1,2,3,4]
+std1.extend(std2)
+print(std1)
+
+
+#extand list with taple                         combine 2 tuple
+std1 = ["aditya","aman","kunal"]
+std2 = (1,2,3,4)
+std1.extend(std2)
+print(std1)
+
+
+#extand list with set                          combine 2 set
+std1 = ["aditya","aman","kunal"]
+std2 = {1,2,3,4}
+std1.extend(std2)
+print(std1)
+
+
+#extand list with dictionary                     combine 2 dictionary
+std1 = ["aditya","aman","kunal"]                 #only keys are extand
+std2 = {"x":10,"y":90}
+std1.extend(std2)
+print(std1)
+
+#remove data from the list using revome method          1 remove the data    
+name = ["kunal","aman","prashant"]                      #2 if there is same data in the
+name.remove("kunal")                                   #list then tha first is remove
+print(name)
+
