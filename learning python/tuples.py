@@ -16,3 +16,18 @@ print(len(data))      # for length
 print(type(data))     # for checking type
 print(tuple(data))    # convert collection to tuple
 
+
+
+
+# tuple with single element (important)
+
+single = ("python",)
+print(single)
+print(type(single))
+
+
+# tuple allow duplicate values
+
+data = ("python", "java", "python", "c")
+print(data)
+
