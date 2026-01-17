@@ -31,3 +31,14 @@ print(type(single))
 data = ("python", "java", "python", "c")
 print(data)
 
+
+
+
+
+# tuple slicing
+
+data = ("a", "b", "c", "d", "e")
+print(data[1:4])
+print(data[:3])
+print(data[2:])
+
