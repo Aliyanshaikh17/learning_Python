@@ -22,3 +22,14 @@ convertToSet = set(exTuple)
 print("Converted set :-", convertToSet)
 print("Type of convertToSet ", type(convertToSet))
 
+
+
+#pass  argument 
+def select(Organization):
+    for x in Organization:
+
+        print(x)
+
+companyName = ["TCS","Tata Technologies","WIPRO","Infosys"]
+select(companyName)
+
