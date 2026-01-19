@@ -59,3 +59,12 @@ temp = list(data)
 temp.append("mvp")
 data = tuple(temp)
 print(data)
+
+
+# Tuple with User Input
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+num3 = int(input("Enter third number: "))
+
+user_tuple = (num1, num2, num3)
+print("User Tuple:", user_tuple)
