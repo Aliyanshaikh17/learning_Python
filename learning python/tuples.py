@@ -18,7 +18,6 @@ print(tuple(data))    # convert collection to tuple
 
 
 
-
 # tuple with single element (important)
 
 single = ("python",)
@@ -33,16 +32,12 @@ print(data)
 
 
 
-
-
 # tuple slicing
 
 data = ("a", "b", "c", "d", "e")
 print(data[1:4])
 print(data[:3])
 print(data[2:])
-
-
 
 
 
@@ -68,3 +63,10 @@ num3 = int(input("Enter third number: "))
 
 user_tuple = (num1, num2, num3)
 print("User Tuple:", user_tuple)
+
+
+# Tuple Methods
+data = (10, 20, 10, 30, 10)
+
+print("Count of 10:", data.count(10))
+print("Index of 30:", data.index(30))
