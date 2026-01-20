@@ -35,6 +35,11 @@ intSet = {2, 3, 4, 5, True, False}
 intSet.add(6)
 print(intSet)
 
+#for removeing
+intSet = {2,3,4,5,5,True,False}
+intSet.remove(5)
+print(intSet)
+
 
 #pass  argument 
 def select(Organization):
