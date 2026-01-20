@@ -2,6 +2,13 @@
 set in python 
 '''
 
+''' A set is a collection data type
+Unordered   ( order in integer form )
+Mutable
+unchangeble
+Does NOT allow duplicate values 
+'''
+
 intSet = {1, 2, 3, 4, 5, 5, True, False, 0}
 
 print(intSet)
@@ -22,6 +29,11 @@ convertToSet = set(exTuple)
 print("Converted set :-", convertToSet)
 print("Type of convertToSet ", type(convertToSet))
 
+
+# for adding single element
+intSet = {2, 3, 4, 5, True, False}
+intSet.add(6)
+print(intSet)
 
 
 #pass  argument 
