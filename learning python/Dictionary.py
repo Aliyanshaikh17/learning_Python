@@ -14,3 +14,12 @@ data = {
     "clss":"bsc"
 }
 print(data)
+
+#access only key value pair
+
+print(data["name"])
+
+print(len(data))          #for length
+print(type(data))         #for cheking type
+print(dict(data))         #for collection to dict 
+
