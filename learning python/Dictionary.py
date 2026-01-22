@@ -23,3 +23,16 @@ print(len(data))          #for length
 print(type(data))         #for cheking type
 print(dict(data))         #for collection to dict 
 
+
+
+
+#for updating dict
+
+data = {
+    "name":"prashant",
+    "RollNo":"19",
+    "Address":"niphad",
+    "clss":"bsc"
+}
+data.update({"college":"mvp"})
+print(data)
