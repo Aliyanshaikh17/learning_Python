@@ -36,3 +36,23 @@ data = {
 }
 data.update({"college":"mvp"})
 print(data)
+
+
+
+
+#for removeing
+data = {
+    "name": "prashant",
+    "RollNo": "19",
+    "Address": "niphad",
+    "clss": "bsc"
+}
+
+data.pop("Address")   # remove specific key
+# data.popitem()      # remove last item
+# data.clear()        # remove all items
+
+print(data)
+
+
+
