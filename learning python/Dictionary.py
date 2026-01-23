@@ -54,5 +54,14 @@ data.pop("Address")   # remove specific key
 
 print(data)
 
+#for copy dictionary
 
-
+data = {
+    "name": "prashant",
+    "RollNo": "19",
+    "Address": "niphad",
+    "clss": "bsc"
+}
+data1 = dict(data)
+print(data1)
+print(data)
