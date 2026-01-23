@@ -52,7 +52,16 @@ data.pop("Address")   # remove specific key
 # data.popitem()      # remove last item
 # data.clear()        # remove all items
 
+
+#del method
+data = {
+    "name":"prashant",
+    "address":"Niphad",
+    "college":"mvp"
+    }
+del data["address"]
 print(data)
+
 
 #for copy dictionary
 
