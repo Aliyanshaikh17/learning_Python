@@ -15,3 +15,35 @@ print("Multiplication operators:- ",num1 * num2)
 print("Division operators:- ",num1 / num2)
 print("Exponrntion operators:- ",num1 ** num2)
 print("Floor Division operators:- ",num1 // num2)
+
+
+
+
+#assingment operator
+num = int(input("Enter the number:- "))
+
+print("Assignment (=) operator:- ", num)
+
+num += 5
+print("Add and assign (+=) operator:- ", num)
+
+num -= 3
+print("Subtract and assign (-=) operator:- ", num)
+
+num *= 2
+print("Multiply and assign (*=) operator:- ", num)
+
+num /= 2
+print("Division and assign (/=) operator:- ", num)
+
+num //= 2
+print("Floor division and assign (//=) operator:- ", num)
+
+num %= 3
+print("Modulus and assign (%=) operator:- ", num)
+
+num **= 2
+print("Exponent and assign (**=) operator:- ", num)
+
+
+
