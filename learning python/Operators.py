@@ -60,3 +60,16 @@ print("Less than (<) operator:- ", num1 < num2)
 print("Greater than or equal to (>=) operator:- ", num1 >= num2)
 print("Less than or equal to (<=) operator:- ", num1 <= num2)
 
+
+
+
+
+#logical operator
+num1 = int(input("Enter the first number:- "))
+num2 = int(input("Enter the second number:- "))
+
+print("Logical AND (and) operator:- ", num1 > 0 and num2 > 0)
+print("Logical OR (or) operator:- ", num1 > 0 or num2 > 0)
+print("Logical NOT (not) operator on num1:- ", not(num1 > 0))
+print("Logical NOT (not) operator on num2:- ", not(num2 > 0))
+
