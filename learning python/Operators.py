@@ -47,3 +47,16 @@ print("Exponent and assign (**=) operator:- ", num)
 
 
 
+
+#comparison operators
+
+num1 = int(input("Enter the first number:- "))
+num2 = int(input("Enter the second number:- "))
+
+print("Equal to (==) operator:- ", num1 == num2)
+print("Not equal to (!=) operator:- ", num1 != num2)
+print("Greater than (>) operator:- ", num1 > num2)
+print("Less than (<) operator:- ", num1 < num2)
+print("Greater than or equal to (>=) operator:- ", num1 >= num2)
+print("Less than or equal to (<=) operator:- ", num1 <= num2)
+
