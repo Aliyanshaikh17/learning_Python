@@ -2,6 +2,10 @@
 Operators in python
 '''
 
+'''An operator in Python is a special symbol or keyword that 
+is used to perform operations on values or variables (operands).'''
+
+
 # Arithmetic Operators
 operator1 = 5
 operator2 = 10
