@@ -92,3 +92,18 @@ print("Bitwise NOT (~a):- ", ~a)
 print("Left Shift (a << 1):- ", a << 1) 
 print("Right Shift (a >> 1):- ", a >> 1)
 
+
+
+
+
+# Identity operators
+
+x = [10, 20, 30]
+y = [10, 20, 30]
+z = x
+
+print("x is y:- ", x is y)        
+print("x is z:- ", x is z)        
+print("x is not y:- ", x is not y)
+
+
