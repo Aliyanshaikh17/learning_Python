@@ -107,3 +107,18 @@ print("x is z:- ", x is z)
 print("x is not y:- ", x is not y)
 
 
+
+
+
+# Membership operators
+
+numbers = [1, 2, 3, 4, 5]
+
+print("3 in numbers:- ", 3 in numbers)
+print("10 in numbers:- ", 10 in numbers)
+print("10 not in numbers:- ", 10 not in numbers)
+
+name = "Python"
+
+print("'P' in name:- ", 'P' in name)
+print("'z' not in name:- ", 'z' not in name)
