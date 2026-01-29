@@ -8,6 +8,11 @@ Conditional Statements in python
 
 #ex :-
 num = 10
-
 if num > 0:
     print("Number is positive")
+
+
+
+#if-else Statement:-
+'''t checks another condition only if the previous if condition is False.'''
+
