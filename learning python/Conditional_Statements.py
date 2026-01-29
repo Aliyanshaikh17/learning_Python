@@ -14,5 +14,12 @@ if num > 0:
 
 
 #if-else Statement:-
-'''t checks another condition only if the previous if condition is False.'''
+'''It checks another condition only if the previous if condition is False.'''
 
+
+#ex :-
+num = -5
+if num > 0:
+    print("Positive number")
+else:
+    print("Negative number")
