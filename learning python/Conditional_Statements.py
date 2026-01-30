@@ -33,3 +33,8 @@ if(age >= 18):
 else:
     print("you not eble to vote")
 
+
+
+
+#if-elif-else Statement
+'''The else statement runs when all conditions above are False.'''
