@@ -23,3 +23,13 @@ if num > 0:
     print("Positive number")
 else:
     print("Negative number")
+
+
+
+#ex :-
+age = int(input("enter your age :- "))
+if(age >= 18):
+    print("you able to vote")
+else:
+    print("you not eble to vote")
+
