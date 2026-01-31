@@ -38,3 +38,13 @@ else:
 
 #if-elif-else Statement
 '''The else statement runs when all conditions above are False.'''
+
+#ex :- 
+
+a = -10
+if a < 0:
+    print( "number is negative" )
+elif a > 0:
+    print("number is positive")
+else:
+    print("number is zero")
