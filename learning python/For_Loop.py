@@ -5,5 +5,9 @@ what is loops
 '''
 
 
+'''
+1)  for loop
+    - A for loop executes a block of code for each item in a sequence.
+'''
 
 
