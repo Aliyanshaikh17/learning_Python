@@ -68,3 +68,15 @@ else:
 
 '''A nested if means an if statement inside another if statement.'''
 
+
+#ex:- 
+country = input("Enter the country name :- ")
+age = int(input("Enter your name:- "))
+
+if country == "india":
+    if age >= 18:
+        print("you are eligible for vote")
+    else:
+        print("you are not eligible for vote")
+else:
+    print("You are not eligible for vote")
