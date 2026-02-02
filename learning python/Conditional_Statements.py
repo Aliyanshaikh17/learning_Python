@@ -62,3 +62,9 @@ elif marks >= 50:
     print("Grade: C")
 else:
     print("Fail")
+
+
+#Nested if Statement
+
+'''A nested if means an if statement inside another if statement.'''
+
