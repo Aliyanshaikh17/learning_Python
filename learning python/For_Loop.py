@@ -15,6 +15,13 @@ what is loops
 for i in range(1, 6):
     print(i)
 
+# Print even numbers
+for i in range(2, 11, 2):
+    print(i)
 
+# Loop through string
+name = "Python"
+for ch in name:
+    print(ch)
 
 
