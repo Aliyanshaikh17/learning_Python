@@ -42,3 +42,13 @@ while i <= 10:
 
 print("Sum =", total)
 
+
+
+# while loop with user input
+
+num = int(input("Enter a number :- "))
+i = 1
+while i <= num:
+    print(i)
+    i = i + 1
+
