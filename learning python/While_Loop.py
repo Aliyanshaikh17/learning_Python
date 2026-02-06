@@ -52,3 +52,12 @@ while i <= num:
     print(i)
     i = i + 1
 
+
+
+# Infinite while loop
+# (runs forever if condition never becomes False)
+
+'''
+while True:
+    print("Hello")
+'''
