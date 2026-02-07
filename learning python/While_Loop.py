@@ -75,3 +75,14 @@ while i <= 10:
     i = i + 1
 
 
+
+# while loop with continue
+# continue skips the current iteration
+
+i = 0
+while i < 10:
+    i = i + 1
+    if i == 5:
+        continue
+    print(i)
+
