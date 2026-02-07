@@ -61,3 +61,17 @@ while i <= num:
 while True:
     print("Hello")
 '''
+
+
+
+# while loop with break
+# break stops the loop immediately
+
+i = 1
+while i <= 10:
+    if i == 5:
+        break
+    print(i)
+    i = i + 1
+
+
