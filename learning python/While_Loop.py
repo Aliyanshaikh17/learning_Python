@@ -98,3 +98,14 @@ while i <= 3:
         print(i, j)
         j = j + 1
     i = i + 1
+
+
+# while loop with break
+# break stops the loop immediately
+
+i = 1
+while i <= 10:
+    if i == 5:
+        break
+    print(i)
+    i = i + 1
