@@ -33,3 +33,12 @@ for i in range(1, num + 1):
     print(i)
 
 
+#for loop with break
+# - reak stops the loop immediately
+
+for i in range(1, 11):
+    if i == 5:
+        break
+    print(i)
+
+
