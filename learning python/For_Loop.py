@@ -25,3 +25,11 @@ for ch in name:
     print(ch)
 
 
+
+#for loop with user input
+
+num = int(input("Enter a number:- "))
+for i in range(1, num + 1):
+    print(i)
+
+
