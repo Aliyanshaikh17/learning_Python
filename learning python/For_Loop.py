@@ -52,3 +52,11 @@ for i in range(1, 11):
     print(i)
 
 
+# Nested for loop
+# A for loop inside another for loop
+
+for i in range(1, 4):
+    for j in range(1, 4):
+        print(i, j)
+
+
