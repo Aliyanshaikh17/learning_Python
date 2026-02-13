@@ -11,3 +11,9 @@ def greeting():
 def greeting():
     print("Hello Umesh")
 greeting()
+
+
+
+
+#Arguments Used In Functions.
+'''Information can be passed to the function called arguments'''
