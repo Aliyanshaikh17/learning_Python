@@ -26,3 +26,14 @@ greeting("pawan")
 greeting("rohan")
 greeting("Sham")                           # sham is the argument
 
+
+
+#types of arguments
+
+# 1. Arbitrary Arguments (*args)
+
+def my_function(*kids):
+    print("Kids name are :- ",kids)
+    print("Name of Second Kid :- ",kids[1])
+my_function("Rahul","Tejas","Radha","Raju","Kaveri")
+
