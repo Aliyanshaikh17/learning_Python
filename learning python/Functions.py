@@ -17,3 +17,12 @@ greeting()
 
 #Arguments Used In Functions.
 '''Information can be passed to the function called arguments'''
+
+
+
+def greeting(fname):
+    print("My name is:-",fname)            # fname is the parameter
+greeting("pawan")
+greeting("rohan")
+greeting("Sham")                           # sham is the argument
+
