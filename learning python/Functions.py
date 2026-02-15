@@ -37,3 +37,15 @@ def my_function(*kids):
     print("Name of Second Kid :- ",kids[1])
 my_function("Rahul","Tejas","Radha","Raju","Kaveri")
 
+
+
+#2. Keyword Arguments (kwargs)
+'''You can pass arguments using key = value syntax'''
+
+def my_function(boy1, boy2, boy3):
+    print("Name of First boy :- ",boy1)
+    print("Name of Second boy :- ",boy2)
+    print("Name of Third boy :- ",boy3)
+my_function(boy3 = "Chetan", boy2 = "Rakesh", boy1 ="Kedar")
+
+
