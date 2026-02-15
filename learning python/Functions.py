@@ -49,3 +49,21 @@ def my_function(boy1, boy2, boy3):
 my_function(boy3 = "Chetan", boy2 = "Rakesh", boy1 ="Kedar")
 
 
+
+
+def details(**info):
+    print(info)
+
+details(name="Aliyan", age=20, city="Pune")
+
+
+
+# 3. Arbitrary Keyword Arguments (**kwargs)
+'''  If you dont know how many keyword arguments will be passed, use **kwargs '''
+
+def StudentInfo(**kwargs):
+    print("First name of student :- ",kwargs["firstName"])
+    print("Middle name of student :- ",kwargs["middleName"])
+    print("Last name of student :- ",kwargs["lastName"])
+StudentInfo(firstName = "Chetan", middleName = "Uttam",lastName = "Khairnar")
+
