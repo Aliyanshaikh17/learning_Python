@@ -67,3 +67,12 @@ def StudentInfo(**kwargs):
     print("Last name of student :- ",kwargs["lastName"])
 StudentInfo(firstName = "Chetan", middleName = "Uttam",lastName = "Khairnar")
 
+
+#4. Default Parameter Value
+
+def select(lang = "Python"):
+    print("My favorite programming language is ",lang)
+select("Java")
+select("C")
+select()
+select("C++")
