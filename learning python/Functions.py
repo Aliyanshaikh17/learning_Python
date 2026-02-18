@@ -76,3 +76,34 @@ select("Java")
 select("C")
 select()
 select("C++")
+
+
+# 5. Passing a List as an Argument
+'''Any data type can be passed to a function (string, number, list, dictionary, etc.).'''
+
+def select(Organization):
+    for x in Organization:
+        print(x)
+companyName = ["TCS","Tata Technologies","WIPRO","Infosys"]
+select(companyName)
+
+# Return Values
+'''Functions can return results using the return keyword'''
+
+num1 = int(input("Enter the number :- "))
+def Add(num1):
+    return 5 + num1
+print(Add(num1))
+
+
+# 7. The pass Statement
+'''Functions cannot be empty, If you want an empty function (maybe to define later), use pass.'''
+
+num1 = int(input("Enter the number :- "))
+num2 = int(input("Enter the number :- "))
+def Add(num1):
+    pass
+print("First Function return the addition ",Add(num1))
+def Sub(num2):
+    return num1 + num2
+print("Second function return the subtraction :-",Sub(num2))
