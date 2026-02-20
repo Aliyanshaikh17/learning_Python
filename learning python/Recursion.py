@@ -32,3 +32,13 @@ num = int(input("Enter the number :- "))
 print("Factorial is :- ", factorial(num))
 
 
+
+
+def sumOfNumbers(n):
+    if n == 0:
+        return 0
+    else:
+        return n + sumOfNumbers(n-1)
+
+num = int(input("Enter the number :- "))
+print("Sum is :- ", sumOfNumbers(num))
