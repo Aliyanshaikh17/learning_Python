@@ -15,3 +15,20 @@ def countDown(n):
         print(n)
         countDown(n-1)  # Function calling itself
 countDown(5)
+
+
+
+
+
+# Factorial Program using Recursion
+
+def factorial(n):
+    if n == 1:              # Base Condition
+        return 1
+    else:
+        return n * factorial(n-1)   # Recursive Call
+
+num = int(input("Enter the number :- "))
+print("Factorial is :- ", factorial(num))
+
+
