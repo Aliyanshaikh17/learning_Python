@@ -28,3 +28,16 @@ Lambda automatically returns the expression result.
 
 square = lambda x: x * x
 print(square(5))
+
+
+
+'''
+Lambda Inside Another Function
+'''
+
+def outer(x):
+    return lambda y: x + y
+
+result = outer(10)
+print(result(5))
+
