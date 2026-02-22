@@ -17,3 +17,14 @@ greeting = lambda fname: print("My name is:-", fname)
 greeting("Pawan")
 greeting("Rohan")
 greeting("Sham")
+
+
+
+'''
+Lambda With Return Value
+
+Lambda automatically returns the expression result.
+'''
+
+square = lambda x: x * x
+print(square(5))
