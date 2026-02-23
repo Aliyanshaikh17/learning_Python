@@ -53,3 +53,16 @@ print(check(10))
 print(check(7))
 
 
+
+
+'''
+Lambda with map()
+Used to apply a function to all items in a list.
+'''
+
+
+numbers = [1, 2, 3, 4, 5]
+result = list(map(lambda x: x * 2, numbers))
+print(result)
+
+
