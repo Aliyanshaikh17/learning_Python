@@ -41,3 +41,15 @@ def outer(x):
 result = outer(10)
 print(result(5))
 
+
+
+    
+'''
+Lambda With Conditional (if-else)
+'''
+
+check = lambda x: "Even" if x % 2 == 0 else "Odd"
+print(check(10))
+print(check(7))
+
+
