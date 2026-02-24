@@ -89,3 +89,16 @@ result = reduce(lambda a, b: a + b, numbers)
 print(result)
 
 
+
+
+'''
+Lambda in Sorting
+'''
+
+students = [
+    ("Ali", 25),
+    ("Rohan", 20),
+    ("Pawan", 23)
+]
+students.sort(key=lambda x: x[1])
+print(students)
