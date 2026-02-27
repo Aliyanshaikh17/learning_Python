@@ -9,3 +9,18 @@ What is Exception Handling
     - It allows the program to continue running even after an error.
 '''
 
+'''
+Why we need Exception Handling
+    - To handle runtime errors.
+    - To show proper error messages.
+    - To make the program safe and user-friendly.
+'''
+
+'''
+Common Errors in Python
+    - ZeroDivisionError
+    - ValueError
+    - TypeError
+    - NameError
+    - IndexError
+'''
