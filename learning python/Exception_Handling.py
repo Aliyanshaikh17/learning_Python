@@ -24,3 +24,13 @@ Common Errors in Python
     - NameError
     - IndexError
 '''
+
+
+#Example of Exception Handling
+try:
+    num = int(input("Enter a number:- "))
+    print(10 / num)
+except:
+    print("Error occurred!")
+
+
