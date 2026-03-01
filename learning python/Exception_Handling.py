@@ -60,3 +60,15 @@ except ZeroDivisionError:
 else:
     print("Result is:", result)
 
+
+#finally block
+#example
+
+try:
+    num = int(input("Enter number:- "))
+    print(10 / num)
+except:
+    print("Error occurred!")
+finally:
+    print("Program finished.")
+
