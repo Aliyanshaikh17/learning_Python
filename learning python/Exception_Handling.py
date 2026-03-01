@@ -72,3 +72,15 @@ except:
 finally:
     print("Program finished.")
 
+
+#Multiple Exceptions in One Block
+#Example
+
+try:
+    num = int(input("Enter number:- "))
+    print(10 / num)
+
+except (ZeroDivisionError, ValueError):
+    print("Invalid input or division by zero!")
+
+
