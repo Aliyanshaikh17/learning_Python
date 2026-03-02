@@ -5,6 +5,11 @@ what is OOPs :- to map with real world scenarios , we started using object in co
 '''
 
 
+''' 
+class
+is the blueprint for creating object
+'''
+
 
 
 
