@@ -10,6 +10,13 @@ class
 is the blueprint for creating object
 '''
 
+'''
+Object
+An object is an instance of a class.
+'''
+
+
+
 
 
 
