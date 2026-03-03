@@ -42,3 +42,23 @@ a.post = "hr"
 
 a.info()
 b.info()
+
+
+
+# Class with Multiple Attributes
+class person:
+    name = "prashant"
+    post = "manager"
+    age = 25
+
+    def info(self):
+        print(f"{self.name} is a {self.post}")
+
+a = person()
+b = person()
+
+a.name = "bhushan"
+a.post = "HR"
+
+a.info()
+b.info()
