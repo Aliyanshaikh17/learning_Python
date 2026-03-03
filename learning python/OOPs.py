@@ -16,16 +16,12 @@ An object is an instance of a class.
 '''
 
 
+#ex :-
+class student:
+    name = "karan"
 
-
-
-
-
-
-
-
-
-
+s1 = student()
+print(s1.name)
 
 
 
