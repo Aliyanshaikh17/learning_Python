@@ -62,3 +62,13 @@ a.post = "HR"
 
 a.info()
 b.info()
+
+
+
+
+#init Constructor
+'''
+Constructor
+    - __init__ method runs automatically when object is created.
+    - It is used to initialize object data.
+'''
