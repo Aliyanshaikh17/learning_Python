@@ -81,5 +81,21 @@ class Student:
     def display(self):
         print(self.name, self.age)
 
-s1 = Student("Aliyan", 20)
+s1 = Student("rohit", 20)
 s1.display()
+
+
+
+
+'''Types of Variables'''
+
+'''
+Instance Variable
+    - Defined inside constructor using self.
+    - Different for each object.
+
+Class Variable
+    - Defined inside class but outside constructor.
+    - Same for all objects.
+'''
+
