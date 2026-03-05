@@ -99,3 +99,18 @@ Class Variable
     - Same for all objects.
 '''
 
+
+class College:
+    college_name = "ABC College"   # Class Variable
+
+    def __init__(self, name):
+        self.name = name           # Instance Variable
+
+s1 = College("Rahul")
+s2 = College("Aman")
+
+print(s1.name)
+print(s2.name)
+print(College.college_name)
+
+
