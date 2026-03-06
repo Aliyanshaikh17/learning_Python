@@ -152,3 +152,23 @@ Demo.greet()
 
 
 
+
+
+'''Four Pillars of OOPs'''
+
+#1 Encapsulation
+'''
+Encapsulation
+    - Wrapping data and methods into a single unit (class).
+    - Data hiding using private variables.
+'''
+
+class Bank:
+    def __init__(self, balance):
+        self.__balance = balance   # Private variable
+
+    def show_balance(self):
+        print("Balance:", self.__balance)
+
+b = Bank(5000)
+b.show_balance()
