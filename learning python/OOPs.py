@@ -114,3 +114,41 @@ print(s2.name)
 print(College.college_name)
 
 
+
+
+'''Types of Methods'''
+
+'''
+1) Instance Method
+    - Uses self
+    - Works with object data
+
+2) Class Method
+    - Uses @classmethod
+    - Uses cls parameter
+
+3) Static Method
+    - Uses @staticmethod
+    - Does not use self or cls
+'''
+
+class Demo:
+
+    def show(self):
+        print("Instance Method")
+
+    @classmethod
+    def display(cls):
+        print("Class Method")
+
+    @staticmethod
+    def greet():
+        print("Static Method")
+
+d = Demo()
+d.show()
+Demo.display()
+Demo.greet()
+
+
+
