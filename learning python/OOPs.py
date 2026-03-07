@@ -172,3 +172,30 @@ class Bank:
 
 b = Bank(5000)
 b.show_balance()
+
+
+
+
+#2. Abstraction
+'''
+Abstraction
+    - Hiding internal details and showing only important features.
+'''
+
+from abc import ABC, abstractmethod
+
+class Vehicle(ABC):
+
+    @abstractmethod
+    def start(self):
+        pass
+
+class Car(Vehicle):
+    def start(self):
+        print("Car started")
+
+c = Car()
+c.start()
+
+
+
