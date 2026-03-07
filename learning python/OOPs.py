@@ -199,3 +199,25 @@ c.start()
 
 
 
+
+
+#3. Inheritance
+'''
+Inheritance
+    - One class can inherit properties of another class.
+'''
+
+class Father:
+    def house(self):
+        print("Father's House")
+
+class Son(Father):
+    def bike(self):
+        print("Son's Bike")
+
+s = Son()
+s.house()
+s.bike()
+
+
+
