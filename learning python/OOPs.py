@@ -227,3 +227,23 @@ s.bike()
 Polymorphism
     - Same method name, different behavior.
 '''
+
+class Bird:
+    def sound(self):
+        print("Bird makes sound")
+
+class Sparrow(Bird):
+    def sound(self):
+        print("Chirp Chirp")
+
+class Crow(Bird):
+    def sound(self):
+        print("Caw Caw")
+
+s = Sparrow()
+c = Crow()
+
+s.sound()
+c.sound()
+
+
