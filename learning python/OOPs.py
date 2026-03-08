@@ -221,3 +221,9 @@ s.bike()
 
 
 
+
+#4. Polymorphism
+'''
+Polymorphism
+    - Same method name, different behavior.
+'''
