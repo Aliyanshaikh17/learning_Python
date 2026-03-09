@@ -28,3 +28,23 @@ print(s1.get_marks())
 
 
 
+
+
+#Example of Setter Method
+class Student:
+
+    def __init__(self, name, marks):
+        self.__marks = marks
+        self.name = name
+
+    # Setter Method
+    def set_marks(self, marks):
+        self.__marks = marks
+
+
+s1 = Student("rohit", 80)
+
+s1.set_marks(95)
+
+print(s1._Student__marks)
+
