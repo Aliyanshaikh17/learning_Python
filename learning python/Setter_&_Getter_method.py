@@ -48,3 +48,33 @@ s1.set_marks(95)
 
 print(s1._Student__marks)
 
+
+
+#Getter and Setter Together
+class Student:
+
+    def __init__(self, name, marks):
+        self.name = name
+        self.__marks = marks
+
+    # Getter
+    def get_marks(self):
+        return self.__marks
+
+    # Setter
+    def set_marks(self, marks):
+        if marks >= 0 and marks <= 100:
+            self.__marks = marks
+        else:
+            print("Invalid Marks")
+
+s1 = Student("rohit", 70)
+
+print(s1.get_marks())
+
+s1.set_marks(90)
+
+print(s1.get_marks())
+
+
+
