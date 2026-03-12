@@ -49,3 +49,21 @@ file.close()
 
 
 
+
+
+
+# 3) readlines() Example
+
+
+print("\nREAD ALL LINES USING LIST")
+
+file = open("demo.txt", "r")
+lines = file.readlines()
+
+for line in lines:
+    print(line)
+
+file.close()
+
+
+
