@@ -35,3 +35,17 @@ file.close()
 
 
 
+
+
+# 2) readline() Example
+
+
+print("\nREAD LINE BY LINE")
+
+file = open("demo.txt", "r")
+print(file.readline())
+print(file.readline())
+file.close()
+
+
+
