@@ -82,3 +82,20 @@ print(file.read())
 file.close()
 
 
+
+
+
+# 5) Append Data to File
+
+
+print("\nAPPEND FILE")
+
+file = open("demo.txt", "a")
+file.write("This line is appended\n")
+file.close()
+
+file = open("demo.txt", "r")
+print(file.read())
+file.close()
+
+
