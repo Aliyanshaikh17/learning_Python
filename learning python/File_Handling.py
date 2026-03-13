@@ -67,3 +67,18 @@ file.close()
 
 
 
+
+
+# 4) Writing to a File (Overwrite)
+
+print("\nWRITE FILE")
+
+file = open("demo.txt", "w")
+file.write("File overwritten successfully\n")
+file.close()
+
+file = open("demo.txt", "r")
+print(file.read())
+file.close()
+
+
