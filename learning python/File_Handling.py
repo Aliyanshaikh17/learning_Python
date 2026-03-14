@@ -112,3 +112,16 @@ with open("demo.txt", "r") as file:
 
 
 
+
+# 7) Check File Exists
+
+
+print("\nCHECK FILE EXISTENCE")
+
+import os
+
+if os.path.exists("demo.txt"):
+    print("File exists")
+else:
+    print("File not found")
+
