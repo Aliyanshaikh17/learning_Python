@@ -99,3 +99,16 @@ print(file.read())
 file.close()
 
 
+
+
+# 6) Using WITH Statement
+
+print("\nUSING WITH STATEMENT")
+
+with open("demo.txt", "r") as file:
+    data = file.read()
+    print(data)
+
+
+
+
