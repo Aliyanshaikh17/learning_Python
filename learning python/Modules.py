@@ -28,3 +28,17 @@ print(sqrt(25))
 print(pi)
 
 
+
+
+#Import with Alias
+
+'''
+alias
+    - We can give a short name to a module using "as".
+'''
+
+import math as m
+
+print(m.sqrt(36))
+print(m.pi)
+
