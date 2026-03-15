@@ -12,3 +12,19 @@ import math
 
 print(math.sqrt(25))
 print(math.pi)
+
+
+
+#Import Specific Functions
+
+'''
+from module import function
+    - Used to import specific functions from a module.
+'''
+
+from math import sqrt, pi
+
+print(sqrt(25))
+print(pi)
+
+
