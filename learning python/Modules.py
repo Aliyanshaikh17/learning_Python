@@ -42,3 +42,15 @@ import math as m
 print(m.sqrt(36))
 print(m.pi)
 
+
+
+#Import All Functions
+'''
+from module import *
+    - Imports all functions from the module.
+'''
+
+from math import *
+
+print(sqrt(49))
+print(pi)
