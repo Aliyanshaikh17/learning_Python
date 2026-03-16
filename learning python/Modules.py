@@ -54,3 +54,22 @@ from math import *
 
 print(sqrt(49))
 print(pi)
+
+
+
+#User Defined Module
+'''
+User Defined Module
+    - We can create our own module.
+    - Save functions in a Python file and import it.
+'''
+
+#Step 1: Create file my_module.py
+
+def greet(name):
+    print("Hello", name)
+
+def add(a, b):
+    print(a + b)
+
+
