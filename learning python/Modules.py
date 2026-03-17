@@ -73,3 +73,12 @@ def add(a, b):
     print(a + b)
 
 
+
+
+#Step 2: Use the module
+
+#import my_module
+
+#my_module.greet("rohit")
+#my_module.add(5, 3)
+
