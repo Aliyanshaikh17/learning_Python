@@ -82,3 +82,22 @@ def add(a, b):
 #my_module.greet("rohit")
 #my_module.add(5, 3)
 
+
+
+# Built-in Modules Examples
+
+'''
+Some Built-in Modules
+
+math        → Mathematical operations
+random      → Generate random numbers
+datetime    → Work with date and time
+os          → Work with operating system
+sys         → System related functions
+'''
+
+
+import random
+print(random.randint(1, 10))
+
+
