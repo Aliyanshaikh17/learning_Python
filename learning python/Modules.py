@@ -101,3 +101,14 @@ import random
 print(random.randint(1, 10))
 
 
+
+# dir() Function
+
+
+'''
+dir()
+    - Shows all functions inside module
+'''
+
+import math
+print(dir(math))
