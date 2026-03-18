@@ -112,3 +112,13 @@ dir()
 
 import math
 print(dir(math))
+
+
+
+
+# Short Definition
+
+'''
+A module is a file that contains reusable Python code
+like functions, variables, and classes.
+'''
